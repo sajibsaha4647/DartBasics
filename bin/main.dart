@@ -1,6 +1,7 @@
 
 
 import '../oopDart/SimpleClass.dart';
+import '../oopDart/Son.dart';
 
 void  main() {
 sajib();
@@ -10,7 +11,9 @@ sajib();
   var res =  simple.addition();
   simple.getwithThiskeyword();
 
-  print(res);
+  var son = Son();
+
+  son.addition();
 
 
 }
