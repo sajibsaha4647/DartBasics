@@ -1,13 +1,9 @@
 void main(List<String> args) {
-  getreturn();
+  getreturn(100,20);
 }
 
 
-getreturn (){
-
-
-  var a =10;
-  var b =20;
+getreturn (a,b){
 
   var c = a+b ;
 
