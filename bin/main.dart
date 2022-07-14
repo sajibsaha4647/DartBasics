@@ -1,8 +1,21 @@
 
 
+import '../oopDart/SimpleClass.dart';
+
 void  main() {
 sajib();
+
+//call a class from other files
+  var simple = SimpleClass(); 
+  var res =  simple.addition();
+  simple.getwithThiskeyword();
+
+  print(res);
+
+
 }
+
+
 
  var lst = []; 
  var lst2 = [];
