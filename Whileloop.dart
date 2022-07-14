@@ -1,5 +1,5 @@
  void main(List<String> args) {
-  
+  getwhileLoop();
 }
 
 getwhileLoop(){
@@ -8,8 +8,8 @@ getwhileLoop(){
 
 
   while(data < 10){
-    data++;
     print(data);
+    data++;
   }
 
 }
