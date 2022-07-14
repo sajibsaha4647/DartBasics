@@ -1,5 +1,6 @@
 
 
+import '../oopDart/Constractor.dart';
 import '../oopDart/SimpleClass.dart';
 import '../oopDart/Son.dart';
 
@@ -12,8 +13,10 @@ sajib();
   simple.getwithThiskeyword();
   var son = Son();
   son.addition();
-
   Son.simplefun(); //call beacause this static function
+
+  var cons = Constractor();
+
 
 
 }
