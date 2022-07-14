@@ -10,10 +10,10 @@ sajib();
   var simple = SimpleClass(); 
   var res =  simple.addition();
   simple.getwithThiskeyword();
-
   var son = Son();
-
   son.addition();
+
+  Son.simplefun(); //call beacause this static function
 
 
 }

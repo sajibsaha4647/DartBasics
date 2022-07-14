@@ -1,4 +1,4 @@
-class Father{
+abstract class Father{
 
   var day = 20;
   var age = 30;
