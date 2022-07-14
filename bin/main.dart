@@ -15,13 +15,12 @@ sajib();
   son.addition();
   Son.simplefun(); //call beacause this static function
 
-  var cons = Constractor();
+  var cons = ConstractorMy("sajib",12);
 
+    cons.nameAge();
 
 
 }
-
-
 
  var lst = []; 
  var lst2 = [];

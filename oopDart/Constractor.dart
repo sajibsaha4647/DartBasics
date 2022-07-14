@@ -1,10 +1,22 @@
 
-class Constractor{
+class ConstractorMy{
+
+  var name;
+  var age;
 
 
- Constractor(){
+ ConstractorMy(a,b){
     print("this is constractor");
 
+    this.name = a ;
+    this.age = b;
+
+
+ }
+
+
+ void nameAge(){
+  print(this.name);
  }
 
 }
