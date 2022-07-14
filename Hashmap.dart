@@ -12,10 +12,10 @@ gethashs(){
   
 
     var data = {
-      "name":"sajib",
-      "name1":"sajib",
-      "name2":"sajib",
-      "name3":"sajib",
+      "name":"dart",
+      "name1":"flutter",
+      "name2":"native",
+      "name3":"react native",
     };
 
     var arr = [ "sajib","12",234,234,234,234,234,234,234,"dart","javascript",null,""];
